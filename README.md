@@ -1,2 +1,2 @@
 # Code-First-Girls
-Final Project
+Final project for Code First for Girls
