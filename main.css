@@ -1,5 +1,5 @@
 body {
-  background-color: lightcyan;
+  /* background-color: lightcyan; */
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,4 +17,8 @@ main {
 
 .white-text{
   color: white;
+}
+
+footer {
+  background-color: #f5f5f5;
 }
