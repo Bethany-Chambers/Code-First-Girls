@@ -14,7 +14,6 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
   </head>
 
   <body>
@@ -59,39 +58,86 @@
       </div>
     </nav>
 
-    <h1>Get in touch</h1>
-    <h2>
-      Want to get in touch to discuss a cake or bake of your own? Contact us
-      below using the form
-    </h2>
-    <p>
-      Here at Beth's bakes we take the time to fully understand what you would
-      like and how we can deliver it. To contact us to receive more information
-      or simply discuss a cake idea for someone use the form below and we will
-      endeavour to get back to you as soon as possible.
-    </p>
+    <main>
+      <section class="py-5 text-center container-fluid bg-getintouch">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light white-text">Get in Touch</h1>
+            <p class="white-text">The perfect addition for Christmas!</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-sm py-4">
+        <h2>
+          Want to get in touch to discuss a cake or bake of your own? Contact us
+          below using the form
+        </h2>
+        <p>
+          Here at Beth's bakes we take the time to fully understand what you would
+          like and how we can deliver it. To contact us to receive more information
+          or simply discuss a cake idea for someone use the form below and we will
+          endeavour to get back to you as soon as possible.
+        </p>
+        <form id="form">
+          <div class="form-group">
+            <label for="name-input">Name</label>
+            <input type="text" class="form-control" id="name-input" placeholder="Your name here">
+          </div>
+          <div class="form-group">
+            <label for="email-input">Email address</label>
+            <input type="email" class="form-control" id="email-input" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="phone-input">Phone Number</label>
+            <input type="text" class="form-control" id="phone-input" placeholder="01234 012345">
+          </div>
+          <div class="form-group">
+            <label for="method-of-contact-input">Preferred method of contact</label>
+            <select class="form-control" id="method-of-contact-input">
+              <option>Phone</option>
+              <option>Email</option>
+              <option>Other-please specify</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message-input">Message</label>
+            <textarea class="form-control" id="message-input" rows="3"></textarea>
+          </div>
+          <button type="button" class="mt-2 btn btn-primary" id="submit-btn">Submit</button>
+        </form>
+      </section>
+    </main>
+    
+
+    <footer>
+      <div class="container-sm">
+        <div class="row">
+          <div class="col-12 col-md-4 py-4">
+            <h4>Contact information</h4>
+            <ul>
+              <li>Phone number: 07385920654</li>
+              <li>Address: 14 Leeds street, Leeds, LS1 6BL</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 py-4">
+            <h4>Opening times</h4>
+            <ul>
+              <li>Monday 9:00-17:00</li>
+              <li>Tuesday 9:00-17:00</li>
+              <li>Wednesday 9:00-17:00</li>
+              <li>Thursday 9:00-17:00</li>
+              <li>Friday 9:00-17:00</li>
+              <li>Saturday 9:00-13:00</li>
+              <li>Sunday Closed</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 py-4">
+            <h4>Social Links</h4>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
   </body>
-
-  <footer>
-    <div>
-      <h4>Contact information</h4>
-      <ul>
-        <li>Phone number: 07385920654</li>
-        <li>Address: 14 Leeds street, Leeds, LS1 6BL</li>
-      </ul>
-    </div>
-
-    <div>
-      <h4>Opening times</h4>
-      <ul>
-        <li>Monday 9:00-17:00</li>
-        <li>Tuesday 9:00-17:00</li>
-        <li>Wednesday 9:00-17:00</li>
-        <li>Thursday 9:00-17:00</li>
-        <li>Friday 9:00-17:00</li>
-        <li>Saturday 9:00-13:00</li>
-        <li>Sunday Closed</li>
-      </ul>
-    </div>
-  </footer>
 </html>
