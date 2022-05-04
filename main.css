@@ -6,3 +6,15 @@ body {
 h1 {
   text-align: center;
 }
+
+.bg-birthdaycakes {
+  background: url("images/allotment.JPG") no-repeat center / cover;
+}
+
+main {
+  margin-top:56px;
+}
+
+.white-text{
+  color: white;
+}
