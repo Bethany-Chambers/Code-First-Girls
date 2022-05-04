@@ -60,59 +60,154 @@
     </nav>
 
     <main>
-      <h1>Welcome to Beth's Bakes!</h1>
-      <h2>The home of sweet treats and fantastic bakes</h2>
-      <img width="400px" src="images/shoecake.JPG" />
-      <aside>
-        <h2>About me and baking</h2>
-        <p>
-          Hi, I'm Beth and welcome to Beth's Bakes! I'm a keen and budding baker
-          located in Leeds. This all started with my love for baking and then
-          baking for all of my friends and family. And from there, it grew into
-          what you see today!
-        </p>
-        <img width="300px" src="images/me1.jpg" />
-        <ul>
-          <li>I started baking from age 4</li>
-          <li>
-            I started of making cakes with my nan's and from there my passion
-            grew
-          </li>
-          <li>
-            I went to the NEC for a cake exhibition and my eyes were opened into
-            the world of extraordinary cakes!
-          </li>
-          <li>I bought some equipment, went back home and got creating</li>
-          <li>
-            From there, I taught myself everything I know (with help from
-            YouTube of course!)
-          </li>
-          <li>I've been growing and love taking on a challenge</li>
-        </ul>
-      </aside>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/shoecake.JPG" class="d-block w-100" alt="..." />
+            <div class="carousel-caption">
+              <h1>Welcome to Beth's Bakes!</h1>
+              <h3>The home of sweet treats and fantastic bakes</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/christmascake3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h1>Welcome to Beth's Bakes!</h1>
+              <h3>The home of sweet treats and fantastic bakes</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/footballshirt3.JPG"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h1>Welcome to Beth's Bakes!</h1>
+              <h3>The home of sweet treats and fantastic bakes</h3>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="container-sm py-4">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">A bit about me and baking</h2>
+            <p class="lead">
+              Hi, I'm Beth and welcome to Beth's Bakes! I'm a keen and budding
+              baker located in Leeds. This all started with my love for baking
+              and then baking for all of my friends and family. And from there,
+              it grew into what you see today!
+            </p>
+            <ul>
+              <li>I started baking from age 4</li>
+              <li>
+                I started of making cakes with my nan's and from there my
+                passion grew
+              </li>
+              <li>
+                I went to the NEC for a cake exhibition and my eyes were opened
+                into the world of extraordinary cakes!
+              </li>
+              <li>I bought some equipment, went back home and got creating</li>
+              <li>
+                From there, I taught myself everything I know (with help from
+                YouTube of course!)
+              </li>
+              <li>I've been growing and love taking on a challenge</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <figure class="figure">
+              <img
+                src="images/me1.jpg"
+                class="figure-img img-fluid mx-auto rounded"
+                alt="Image of me"
+              />
+              <figcaption class="figure-caption">Image of me</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <aside></aside>
     </main>
+
+    <footer>
+      <div class="container-sm">
+        <div class="row">
+          <div class="col-12 col-md-4 py-4">
+            <h4>Contact information</h4>
+            <ul>
+              <li>Phone number: 07385920654</li>
+              <li>Address: 14 Leeds street, Leeds, LS1 6BL</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 py-4">
+            <h4>Opening times</h4>
+            <ul>
+              <li>Monday 9:00-17:00</li>
+              <li>Tuesday 9:00-17:00</li>
+              <li>Wednesday 9:00-17:00</li>
+              <li>Thursday 9:00-17:00</li>
+              <li>Friday 9:00-17:00</li>
+              <li>Saturday 9:00-13:00</li>
+              <li>Sunday Closed</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 py-4">
+            <h4>Social Links</h4>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
-
-  <footer>
-    <div>
-      <h4>Contact information</h4>
-      <ul>
-        <li>Phone number: 07385920654</li>
-        <li>Address: 14 Leeds street, Leeds, LS1 6BL</li>
-      </ul>
-    </div>
-
-    <div>
-      <h4>Opening times</h4>
-      <ul>
-        <li>Monday 9:00-17:00</li>
-        <li>Tuesday 9:00-17:00</li>
-        <li>Wednesday 9:00-17:00</li>
-        <li>Thursday 9:00-17:00</li>
-        <li>Friday 9:00-17:00</li>
-        <li>Saturday 9:00-13:00</li>
-        <li>Sunday Closed</li>
-      </ul>
-    </div>
-  </footer>
 </html>
