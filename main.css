@@ -22,3 +22,7 @@ main {
 footer {
   background-color: #f5f5f5;
 }
+
+.bg-christmascakes {
+  background: url("images/christmascake.JPG") no-repeat center / cover;
+}
