@@ -3,9 +3,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+/* h1 {
   text-align: center;
-}
+} */
 
 .bg-birthdaycakes {
   background: url("images/allotment.JPG") no-repeat center / cover;
@@ -25,4 +25,12 @@ footer {
 
 .bg-christmascakes {
   background: url("images/christmascake.JPG") no-repeat center / cover;
+}
+
+.bg-getintouch {
+  background: black;
+}
+
+.bg-sweettreats {
+  background: url("images/sponge.JPG") no-repeat center / cover;
 }
