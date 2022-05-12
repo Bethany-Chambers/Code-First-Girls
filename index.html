@@ -14,7 +14,6 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <!-- <script src="main.js"></script> -->
     <meta name="robots" content="noindex,nofollow" />
   </head>
 
@@ -179,9 +178,30 @@
           </div>
         </div>
       </section>
-      <aside></aside>
+      <section class="container-sm py-4">
+       <h2>Cake of the month!</h2>
+       <p id="cakedate"></p>
+       <button id="cakebutton" type="button" class="btn btn-primary btn-lg">Click here</button>
+      <div id="cakeofmonth" class="row featurette py-4" hidden>
+        <div class="col-md-8">
+          <h3 class="featurette-heading">Gardening wonders</h3>
+          <p class="lead">
+            A classic vanilla sponge cake decorated for the keenest of gardeners!
+          </p>
+        </div>
+        <div class="col-md-4">
+          <figure class="figure">
+            <img
+              src="images/garden.JPG"
+              class="figure-img img-fluid mx-auto rounded"
+              alt="Image of me"
+            />
+            <figcaption class="figure-caption">Our gardening cake of the month</figcaption>
+          </figure>
+        </div>
+      </div>
+      </section>
     </main>
-
     <footer>
       <div class="container-sm">
         <div class="row">
@@ -216,5 +236,6 @@
         </div>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
